@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid bg-transparent pt-1 pb-4">
+      <div class="container text-center">
+        <h1 class="display-4">Todo List</h1>
+        <p class="lead mb-0">Platform to keep all your todo tasks.</p>
+        <span class="badge badge-success">
+          Javascript Beginner Project's
+        </span>
+      </div>
+    </div>
+    <div class="card bg-info">
+      <div class="container pt-3">
+        <form id="todo-form">
+          <h3 class="text-white text-center">Add Todo List Here</h3>
+          <input type="text" id="todo-input" class="form-control border-secondary">
+          <button type="submit" class="btn btn-lg btn-block btn-primary mx-auto d-block mt-2">ADD TO LIST</button>
+        </form>
+      </div>
+  
+      <div class="container">
+        <h3 class="text-white mt-5 pt-3 text-center">Todo List</h3>
+        <div class="input-group">
+          <div class="input-group-prepend p-2 bg-white">
+            Search Tasks
+          </div>
+          <input type="text" class="form-control" id="search-input">
+        </div>
+        <ul class="list-group mt-3" id="task-list">
+        </ul>
+      </div>
+  
+      <div class="delete-all pt-3 mb-5">
+        <div class="container">
+          <button class="btn btn-warning btn-block border-danger" type="button" data-toggle="collapse" data-target="#collapseClearBtn" aria-expanded="false" aria-controls="collapseClearBtn">
+            DELETE ALL TODO LIST
+          </button>
+          <div class="collapse mt-3" id="collapseClearBtn">
+              <button class="btn btn-danger clear-task btn-block" id="clear-task">
+                DELETE ALL
+              </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="container">
+      <nav class="navbar navbar-expand-lg bg-transparent navbar-light d-flex justify-content-between">
+        <a class="navbar-brand" href="#">Wegodev Project's</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav d-none d-lg-flex">
+            <a class="nav-item nav-link" target="_blank" href="https://github.com/"><i class="fab fa-2x text-dark fa-github"></i></a>
+            <a class="nav-item nav-link" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-2x text-dark fa-linkedin"></i></a>
+            <a class="nav-item nav-link" target="_blank" href="https://www.instagram.com/mchltantowen/"><i class="fab fa-2x text-dark fa-instagram"></i></a>
+          </div>
+          <div class="navbar-nav d-lg-none">
+            <a class="nav-item nav-link text-dark" target="_blank" href="https://github.com/">Github</a>
+            <a class="nav-item nav-link text-dark" target="_blank" href="https://www.linkedin.com/feed/">LinkedIn</a>
+            <a class="nav-item nav-link text-dark" target="_blank" href="https://www.instagram.com/mchltantowen/">Instagram</a>
+          </div>
+        </div>
+      </nav>
+      <p class="text-center">By: Michael Tantowen</p>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
